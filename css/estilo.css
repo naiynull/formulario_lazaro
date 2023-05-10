@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+:root {
+    --principal:rgb(8, 115, 209);
+    --black:#000;
+}
+.p1{
+    background-image: url("../img/banniere_m2i2_leila.jpg");
+    height: 5rem;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+header nav ul li {
+    height: 100px;
+    padding: 4rem;
+    font-size: 30px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: var(--black);
+}
